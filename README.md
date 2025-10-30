@@ -1,20 +1,15 @@
-# OT Incident Response Playbook Generator
+# OT Cybersecurity Toolkit Landing Page
 
-This Streamlit app generates ICS/OT-specific incident response playbooks for scenarios like ransomware, firmware tampering, or insider threats.
+This Streamlit app serves as the central hub for Pat's open-source OT/ICS cybersecurity tools.
 
-## Features
-- Enter or select scenario (e.g., 'PLC firmware tampering')
-- AI-like keyword mapping to predefined playbooks
-- Structured output (Detection, Containment, Roles, Communication, Recovery)
-- Downloadable Markdown checklist
-- Framework mappings (IEC 62443, NIST CSF, SANS ICS IR)
+## Tools Included
+- ICS Network Segmentation Visualizer  
+- OT Asset Risk Scoring Tool  
+- OT Threat Modeling Tool  
+- OT Cyber Hygiene Dashboard  
+- OT Incident Response Playbook Generator  
 
-## Run locally
+## Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-```
-
-## Deploy on Streamlit Cloud
-- Push to GitHub
-- Deploy app and select `app.py`
