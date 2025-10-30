@@ -12,7 +12,7 @@ Provide a short description (e.g., “PLC firmware tampering” or “Ransomware
 """)
 
 # Load predefined playbooks
-with open("data/playbooks.json", "r") as f:
+with open("playbooks.json", "r") as f:
     playbooks = json.load(f)
 
 scenario = st.text_input("Enter incident scenario (e.g., 'Ransomware in historian server')", "")
